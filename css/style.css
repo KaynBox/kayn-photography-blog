@@ -21,6 +21,7 @@ header {
 
 nav {
     text-align: right;
+    padding-bottom: 16px;
 }
 
 
@@ -48,7 +49,7 @@ h2 a:hover {
 
 h3 {
     font-family: 'Lexend Mega', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: lighter;
 }
 
@@ -59,11 +60,11 @@ a {
 
 /*Blog and Side Bar*/
 main {
-    background-color: rgb(52, 42, 40)
+    background-color: rgb(52, 42, 40);
 }
 
 td {
-    padding: 18px;
+    padding: 20px;
     padding-top: 0px;
     vertical-align: top;
 }
@@ -79,7 +80,9 @@ img {
     margin-top: 20px;
 }
 
-
+p {
+    margin-top: 30px;
+}
 #blog {
     width: 860px;
 }
