@@ -96,6 +96,7 @@ article a {
     text-decoration: none;
     display: block;
     text-align: right;
+    color: white;
 }
 
 article a:hover {
