@@ -53,10 +53,6 @@ h3 {
     font-weight: lighter;
 }
 
-a {
-    text-decoration: none;   
-}
-
 
 /*Blog and Side Bar*/
 main {
@@ -67,6 +63,10 @@ td {
     padding: 20px;
     padding-top: 0px;
     vertical-align: top;
+}
+
+#blog {
+    width: 860px;
 }
 
 article {
@@ -80,13 +80,6 @@ img {
     margin-top: 20px;
 }
 
-p {
-    margin-top: 30px;
-}
-#blog {
-    width: 860px;
-}
-
 time {
     font-size: 15px;
     font-weight: lighter;
@@ -95,11 +88,40 @@ time {
     text-align: right;
 }
 
+p {
+    margin-top: 30px;
+}
+
+article a {
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+article a:hover {
+    color: rgb(123, 135, 136);
+}
+
 /*Side Bar*/
 #side-bar {
     width: 260px;
 }
 
+#side-bar hr {
+    visibility: hidden;
+}
+
+input, button {
+    display: block;
+    border: 2px solid rgb(123, 135, 136);
+    padding: 5px;
+    margin: auto;
+    width: 90%
+}
+
+button {
+    padding-top: 8px;
+}
 
 /*Footer*/
 footer {
