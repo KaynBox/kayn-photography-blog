@@ -102,6 +102,19 @@ article a:hover {
     color: rgb(123, 135, 136);
 }
 
+.end-blog {
+    position: relative;
+    text-align: center;
+}
+
+#go-back {
+    display: inline-block;
+}
+
+#home {
+    display: inline-block;
+}
+
 /*Side Bar*/
 #side-bar {
     width: 260px;
