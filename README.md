@@ -1,6 +1,7 @@
 # Kayn Photography Blog
 Another website building project. A blog with some of my photography on display. 
 &nbsp;
+
 Here are some previews of the site:
 
 ![Kayn Photography Blog Preview #1](site-preview01.png "Preview #1")
